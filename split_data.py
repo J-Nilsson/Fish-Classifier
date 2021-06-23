@@ -3,10 +3,10 @@ import os, shutil
 '''Splits data into training and testing folders'''
 
 
-# Path to the directory where the original dataset was uncompressed
-original_dataset_dir = 'C:\\Users\\nilss\\.keras\\datasets\\Fish_Dataset'
+# Path to the directory where the original dataset was uncompressed. Set this to your path.
+original_dataset_dir = 'C:\\usrJoel\\python_Workspace\\fish_classification\\Fish_Dataset'
 
-# Directory where the split dataset will be stored
+# Directory where the split dataset will be stored. Set this to your path.
 base_dir = 'C:\\usrJoel\\python_Workspace\\fish_classification\\Fish_Split_Dataset'
 
 os.mkdir(base_dir)
